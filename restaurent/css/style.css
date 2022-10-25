@@ -85,6 +85,16 @@ body {
 	overflow: hidden;
 	border: 2px solid #3F0C1F;
 }
+#menu-tiles span, #special-tiles span, #map-tiles span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
 #menu-tiles:hover, #special-tiles:hover, #map-tiles:hover {
 	box-shadow: 0px 1px 5px 1px #cccccc;
 }
